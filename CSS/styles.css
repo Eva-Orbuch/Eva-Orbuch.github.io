@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500&display=swap');
+
 html {
         scroll-behavior: smooth;
         z-index: 9;
@@ -14,11 +16,16 @@ html {
 
     h1, h2, h3, h4, h5, h6 {
         text-align: center;
+        font-family: 'Fira Sans', sans-serif;
     }
 
 	h1,h2,h3,h4,h5,h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{
         color: #DA494D;
 	}
+
+    p {
+        font-family: 'Fira Sans', sans-serif;
+    }
 
     a, a:hover {
         color:#18A8BA;
