@@ -5,7 +5,7 @@
     }
 
     body {
-        background: #032d26;
+        background: #B0228A;
     }
 
     h1 {
@@ -65,11 +65,7 @@
 
     #navBG {
         padding-top: 200px;
-        height: 86px;
-        background: #31A28B;
-        z-index: 1;
-        position: relative;
-        margin-bottom: -120px;
+
     }
 
     .navbar {
@@ -78,7 +74,7 @@
         transition: 0.2s;
         top:0;
         z-index: 99999;
-        background-color: #31A28B!important;
+        background-color: #18A8BA;
 
     }
 	.nav-link {
@@ -100,7 +96,7 @@
 
 	.navbar-brand {
 		font-family: 'Arapey', serif;
-		font-size: 3rem;
+		font-size: 35px;
 		color: white !important;
         text-decoration: none;
         line-height: 0.95;
