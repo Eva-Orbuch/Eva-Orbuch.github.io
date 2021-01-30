@@ -40,7 +40,12 @@ html {
     }
 
     .flag {
-        width: 50px;
+        width: 40px;
+        display: block;
+    }
+
+    flags {
+        color: white;
     }
 
     section {
