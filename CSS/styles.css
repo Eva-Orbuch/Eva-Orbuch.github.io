@@ -625,37 +625,10 @@
         display: block;
     }
 
-    footer {
-        text-align: center;
-        background: #032d26;
-        color: grey;
-        position: absolute;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        min-height: 60px;
-    }
 
     .credits a {
         color: grey;
         text-decoration: underline;
-        font-size: 10pt;
-    }
-
-    footer p {
-        padding: 10px 0 10px 0;
-        margin: 0;
-        font-weight: 100;
-        font-size: 10pt;
-    }
-
-    .copyright p {
-        color: rgb(193, 193, 193);
-    }
-
-    .copyright a {
-        text-decoration: none;
-        color: white;
         font-size: 10pt;
     }
 
