@@ -118,7 +118,7 @@ html {
         top: 15px;
         z-index: 999999;
         cursor: pointer;
-        display: block;
+        display: none;
     }
 
         #hamburger-menu span {
@@ -236,6 +236,8 @@ html {
       }
     }
 
-/*        END MOBILE FULL WIDTH NAV
-*/
-
+@media screen and (max-width: 991.98px) {
+    #hamburger-menu {
+        display: block;
+    }
+}
