@@ -100,11 +100,19 @@ html {
     .dropdown-item {
         font-size: 14pt;
         text-decoration: none;
-        text-align: center;
+        text-align: left;
+        margin-left: 20px;
     }
 
 .dropdown-item.active, .dropdown-item:active {
         background: #18A8BA;
+}
+
+.dropdown-menu {
+        color: #DA494D;
+        background: #d8ccc6;
+        border-radius: 0 0 15px 15px;
+        border: 0;
 }
 
 	.navbar-brand {
