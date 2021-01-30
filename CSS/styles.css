@@ -35,8 +35,11 @@ html {
         color:#18A8BA;
     }
 
-    section {
+    .container {
         max-width: 800px;
+    }
+
+    section {
         margin: 30px auto;
         background: #D8CCC6;
         padding: 30px;
