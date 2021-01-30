@@ -90,17 +90,20 @@
         document.getElementsByClassName("overlay")[0].classList.remove('blurred');
         document.getElementsByTagName("body")[0].style.overflow = "initial";
         toggleHamburger();
-        setTimeout( function () {
-            hideNav();
-        }, 2000);
             
         }
 
-    function hideNav () {
-        document.getElementsByTagName("nav")[0].classList.remove('nav-down');
-        document.getElementsByTagName("nav")[0].classList.add('nav-up');
-        document.getElementById("hamburger-menu").classList.add('d-none');
-    }
+//    function hideNav () {
+//        document.getElementsByTagName("nav")[0].classList.remove('nav-down');
+//        document.getElementsByTagName("nav")[0].classList.add('nav-up');
+//        document.getElementById("hamburger-menu").classList.add('d-none');
+//    }
+//            
+//    function showNav () {
+//        document.getElementsByTagName("nav")[0].classList.add('nav-down');
+//        document.getElementsByTagName("nav")[0].classList.remove('nav-up');
+//        document.getElementById("hamburger-menu").classList.remove('d-none');
+//    }
     
 
     function toggleNav() {
@@ -151,10 +154,7 @@
                 // Scroll Up
                 if(st + $(window).height() < $(document).height()) {
                     $('nav').removeClass('nav-up').addClass('nav-down');
-                    
-                    if ($(window).width() < 992) {
-                        $('#hamburger-menu').removeClass('d-none');
-                    }
+                    $('#hamburger-menu').removeClass('d-none');
                 }
             }
             
