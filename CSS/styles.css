@@ -45,6 +45,10 @@ html {
         padding: 25px;
     }
 
+    #rates {
+        background: #18A8BA;
+    }
+
     .flag {
         width: 40px;
         display: block;
