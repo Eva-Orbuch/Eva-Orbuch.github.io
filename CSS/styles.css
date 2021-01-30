@@ -17,7 +17,6 @@
     }
 
 	h1,h2,h3,h4,h5,h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{
-		font-family: 'Arapey',serif;
 	}
 
 	h2 {
@@ -30,43 +29,14 @@
 
 	p, li, a {
 		font-size:1rem;
-        font-family: 'Montserrat',sans-serif;
 	}
 
     section {
-        background: white;
+        background: #D8CCC6;
         padding-top: 20px;
-        position: relative;
+        padding: 30px;
     }
 
-    #main-content {
-        z-index: 99;
-        position: relative;
-        background: white;    }
-
-    a {
-        color:black;
-        text-decoration: underline;
-    }
-
-    a:hover {
-        border-bottom: 1px solid white;
-        transition: 0.1s;
-        color: black;
-    }
-
-    hr {
-       border: 2px solid #31A28B;
-    }
-
-    .fullImgWrapper img{
-        width: 100%;
-    }
-
-    #navBG {
-        padding-top: 200px;
-
-    }
 
     .navbar {
         position: fixed;
@@ -78,7 +48,6 @@
 
     }
 	.nav-link {
-		font-family: 'Arapey', serif;
 		font-size: 18pt;
 		color: white;
         text-decoration: none;
@@ -88,14 +57,12 @@
     }
 
     .dropdown-item {
-        font-family: 'Arapey', serif;
         font-size: 14pt;
         text-decoration: none;
         text-align: center;
     }
 
 	.navbar-brand {
-		font-family: 'Arapey', serif;
 		font-size: 35px;
 		color: white !important;
         text-decoration: none;
