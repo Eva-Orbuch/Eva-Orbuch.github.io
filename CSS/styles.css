@@ -103,6 +103,10 @@ html {
         text-align: center;
     }
 
+.dropdown-item.active, .dropdown-item:active {
+        background: #18A8BA;
+}
+
 	.navbar-brand {
 		font-size: 28px;
 		color: white !important;
