@@ -58,6 +58,7 @@ html {
 		font-size: 18pt;
 		color: white;
         text-decoration: none;
+        font-family: 'Fira Sans', sans-serif;
 	}
     .nav-link:hover {
         color: white;
@@ -74,6 +75,7 @@ html {
 		color: white !important;
         text-decoration: none;
         line-height: 0.95;
+        font-family: 'Fira Sans', sans-serif;
 	}
 
     .nav-down {
