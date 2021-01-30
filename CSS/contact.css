@@ -265,6 +265,10 @@ label.css-label {
     border-radius: 15px;
 }
 
+[type="submit"] {
+    color: white;
+}
+
 .contact1-form-btn {
   min-width: 193px;
   height: 50px;
