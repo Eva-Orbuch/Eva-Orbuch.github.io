@@ -46,6 +46,10 @@ html {
 
     .flags {
         color: white;
+        margin-right: 0;
+        margin-left: auto;
+        display: block;
+        width: 40px;
     }
 
     section {
