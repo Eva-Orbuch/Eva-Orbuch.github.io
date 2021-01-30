@@ -260,6 +260,9 @@ label.css-label {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+    background:  #18A8BA;
+    padding: 15px;
+    border-radius: 15px;
 }
 
 .contact1-form-btn {
