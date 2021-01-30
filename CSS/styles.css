@@ -102,18 +102,24 @@ html {
         text-decoration: none;
         text-align: left;
         margin-left: 20px;
+        color: #DA494D;
     }
 
-.dropdown-item.active, .dropdown-item:active {
-        background: #18A8BA;
-}
+    .dropdown-item:focus, .dropdown-item:hover {
+        background: none;
+    }
 
-.dropdown-menu {
-        color: #DA494D;
+    .dropdown-item.active, .dropdown-item:active {
+        background: #18A8BA;
+    }
+
+    .dropdown-menu {
         background: #d8ccc6;
         border-radius: 0 0 15px 15px;
         border: 0;
-}
+    }
+
+
 
 	.navbar-brand {
 		font-size: 28px;
