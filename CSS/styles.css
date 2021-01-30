@@ -39,6 +39,10 @@ html {
         max-width: 800px;
     }
 
+    .flag {
+        width: 50px;
+    }
+
     section {
         margin: 30px auto;
         background: #D8CCC6;
