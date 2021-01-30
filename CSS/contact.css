@@ -91,7 +91,6 @@ button:hover {
 }
 
 .container-contact1 {
-  background: #fff;
   border-radius: 10px;
   overflow: hidden;
 
@@ -127,9 +126,7 @@ button:hover {
 
 .contact1-form-title {
   display: block;
-  font-family: 'Montserrat', sans-serif;
   font-size: 28px;
-  color: #333333;
   line-height: 1.2;
   text-align: center;
   padding-bottom: 44px;
