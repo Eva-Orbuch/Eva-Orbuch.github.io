@@ -193,8 +193,7 @@ html {
       z-index: 99999;
       top: 0;
       left: 0;
-      background-color: #31A28B;
-      background-color: rgba(49,162,139, 0.85);
+      background-color: #e98a6deb;
       overflow-x: hidden;
       transition: 0.5s;
 
