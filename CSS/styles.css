@@ -153,6 +153,10 @@ html {
         text-transform: uppercase;
     }
 
+#yt-widget .yt-servicelink {
+    display: none !important;
+}
+
     #hamburger-button {
         font-size:35px;
         cursor:pointer;
