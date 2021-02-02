@@ -46,7 +46,7 @@ html {
 
     .container {
         max-width: 800px;
-        display: flex;
+        display: grid;
     }
 
     .section-title {
