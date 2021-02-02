@@ -170,6 +170,13 @@ html {
     display: none !important;
 }
 
+#yt-widget .yt-button {
+    background: #D8CCC6;
+    border: 0;
+}
+
+
+
     #hamburger-button {
         font-size:35px;
         cursor:pointer;
