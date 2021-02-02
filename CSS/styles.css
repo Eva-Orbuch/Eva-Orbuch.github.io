@@ -74,7 +74,9 @@ html {
     }
 
     #logo {
-        width:40px;
+        width:50px;
+        float: left;
+        margin-right: 10px;
     }
 
     #navBG {
