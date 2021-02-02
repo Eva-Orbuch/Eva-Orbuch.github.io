@@ -73,6 +73,10 @@ html {
         border-radius: 20px;
     }
 
+    #logo {
+        width:40px;
+    }
+
     #navBG {
         height: 100px;
     }
