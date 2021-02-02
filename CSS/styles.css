@@ -125,7 +125,6 @@ html {
 
     .dropdown-item.active, .dropdown-item:active {
         background: none;
-        color: white;
     }
 
     .dropdown-menu {
