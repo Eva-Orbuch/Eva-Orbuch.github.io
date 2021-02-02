@@ -115,15 +115,17 @@ html {
         text-decoration: none;
         text-align: left;
         margin-left: 20px;
-        color: #DA494D;
+        color: #572f7c;
     }
 
     .dropdown-item:focus, .dropdown-item:hover {
         background: none;
+        color: #55A08D;
     }
 
     .dropdown-item.active, .dropdown-item:active {
-        background: #18A8BA;
+        background: none;
+        color: white;
     }
 
     .dropdown-menu {
