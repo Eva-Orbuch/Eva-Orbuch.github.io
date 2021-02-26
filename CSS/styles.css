@@ -45,7 +45,6 @@ html {
     }
 
     .container {
-        max-width: 800px;
         display: grid;
     }
 
@@ -73,9 +72,7 @@ html {
     }
 
     section {
-/*        margin: 30px auto;*/
-        padding: 30px;
-        padding-top: 20px;
+
         border-radius: 8px;
         display: inline-block;
     }
