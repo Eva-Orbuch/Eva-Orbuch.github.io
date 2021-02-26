@@ -86,9 +86,6 @@ html {
         margin-right: 10px;
     }
 
-    #navBG {
-        height: 60px;
-    }
 
 #nav-wrapper {
     max-width: 1200px;
@@ -107,7 +104,7 @@ html {
         transition: 0.2s;
         top:0;
         z-index: 99999;
-        background-color: #572F7C;
+        background: #55a08dc4;
 
     }
 	.nav-link {
