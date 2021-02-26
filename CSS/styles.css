@@ -161,6 +161,16 @@ html {
 	.navbar-light .navbar-toggler {
 		color: white;
 	}
+
+#contact-button {
+    border: 2px solid #572F7C;
+    border-radius: 5px;
+}
+
+#contact-button:hover {
+    background: #572F7C;
+    color: white;
+}
 	.logo {
 		width: 130px;
 	}
