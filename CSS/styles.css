@@ -73,8 +73,7 @@ html {
     }
 
     section {
-        margin: 30px auto;
-        background: #D8CCC6;
+/*        margin: 30px auto;*/
         padding: 30px;
         padding-top: 20px;
         border-radius: 8px;
@@ -88,7 +87,7 @@ html {
     }
 
     #navBG {
-        height: 100px;
+        height: 60px;
     }
 
 
@@ -173,7 +172,7 @@ html {
 }
 
 #yt-widget .yt-button {
-    background: #D8CCC6 !important;
+/*    background: #D8CCC6 !important;*/
     border: 0 !important;
 }
 
