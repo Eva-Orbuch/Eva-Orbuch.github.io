@@ -186,7 +186,7 @@ html {
         text-transform: uppercase;
     }
 #yt-widget {
-    position: relative;
+    position: relative !important;
     top: 6px;
 }
 
