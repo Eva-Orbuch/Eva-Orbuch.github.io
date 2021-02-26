@@ -15,6 +15,11 @@ html {
         padding: 20px 0;
     }
 
+    .img300 {
+        width: 300px;
+        float: left;
+          }
+
     h1 {
         margin: 10px 0 20px 0;
         background: #572F7C;
