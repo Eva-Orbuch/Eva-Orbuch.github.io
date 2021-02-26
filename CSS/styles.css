@@ -185,6 +185,10 @@ html {
         letter-spacing: 5px;
         text-transform: uppercase;
     }
+#yt-widget {
+    position: relative;
+    top: 6px;
+}
 
 #yt-widget .yt-servicelink {
     display: none !important;
