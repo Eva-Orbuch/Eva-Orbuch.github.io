@@ -94,6 +94,12 @@ html {
     max-width: 1200px;
 }
 
+#menu-main-nav {
+    width: 700px;
+    right: 0;
+    position: fixed;
+}
+
 
     .navbar {
         position: fixed;
