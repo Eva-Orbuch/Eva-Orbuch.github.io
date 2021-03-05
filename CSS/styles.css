@@ -327,7 +327,15 @@ html {
         }
 
 .social-icon {
-    width: 50px;
+   width: 40px;
+    filter: invert();
+    opacity: 50%;
+    margin: 10px;
+}
+
+.socialicon:hover {
+    opacity: 100%;
+    cursor: pointer;
 }
 
 
