@@ -333,7 +333,7 @@ html {
     margin: 10px;
 }
 
-.socialicon:hover {
+.social-icon:hover {
     opacity: 100%;
     cursor: pointer;
 }
