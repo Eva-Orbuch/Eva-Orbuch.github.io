@@ -326,6 +326,10 @@ html {
         text-decoration: underline;
         }
 
+.social-icon {
+    width: 50px;
+}
+
 
 
     @media screen and (max-height: 450px) {
