@@ -150,6 +150,267 @@
                         <a class="anchor" name="about"></a>
 
                         <p>[explain summary of all 5 offerings, a few testimonials]</p>
+                        
+                        <style>
+  
+  
+.testimonial2 blockquote {
+  margin: 10px 10px 0;
+  background: #efefef;
+  padding: 3vw 30px;
+  position: relative;
+  border: none;
+  border-radius: 8px;
+  color:#3d3f4c;
+  font-size: 1.2rem;
+  line-height: calc(1vw + 25px);
+}
+
+.testimonial2 blockquote:before,
+.testimonial2 blockquote:after {
+  content: "\201C" !important;
+  position: absolute !important;
+  font-size: 80px;
+  line-height: 1;
+  color: darkgrey;
+  font-style: normal;
+}
+
+.testimonial2 blockquote:before {
+  top: 0;
+  left: 10px;
+}
+
+.testimonial2 blockquote:after {
+  content: "\201D" !important;
+  right: 10px;
+  bottom: -0.5em;
+}
+
+.testimonial2 div {
+  width: 0;
+  height: 0;
+  border-left: 0 solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 40px solid #efefef;
+  left: 30px;
+    top: -25px;
+    position: relative;
+}
+
+.testimonial2 p {
+  margin: 8px 0 0 20px;
+  text-align: left;
+  color: #fff;
+}
+
+.test-author {
+  font-size: 16pt;
+  margin: 0 !important;
+  top: -15px;
+  position: relative;
+}
+ 
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  color: #444;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+              
+.slider {
+  height: calc( 1000px - 60vw );
+  min-height: 530px;
+  position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.slider__nav {
+  margin: 2rem 12px !important;
+  z-index:10;
+}
+.slider__nav:checked {
+  -webkit-animation: check 0.4s linear forwards;
+          animation: check 0.4s linear forwards;
+}
+.slider__nav:checked:nth-of-type(1) ~ .slider__inner  {
+  left: 0%;
+}
+.slider__nav:checked:nth-of-type(2) ~ .slider__inner   {
+  left: -100%;
+}
+.slider__nav:checked:nth-of-type(3) ~ .slider__inner   {
+  left: -200%;
+}
+.slider__nav:checked:nth-of-type(4) ~ .slider__inner   {
+  left: -300%;
+}
+.slider__nav:checked:nth-of-type(5) ~ .slider__inner   {
+  left: -400%;
+}
+
+.slider__nav:checked:nth-of-type(6) ~ .slider__inner   {
+  left: -500%;
+}
+.slider__inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  -webkit-transition: left 0.4s;
+  transition: left 0.4s;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+}
+.slider__contents {
+  height: 100%;
+  padding: calc(5vw - 40px);
+  text-align: left;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-flex-flow: column nowrap;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@-webkit-keyframes check {
+  50% {
+    outline-color: #333;
+    box-shadow: 0 0 0 12px #333, 0 0 0 36px rgba(51, 51, 51, 0.2);
+  }
+  100% {
+    outline-color: #333;
+    box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
+  }
+}
+
+@keyframes check {
+  50% {
+    outline-color: #017ea8;
+    box-shadow: 0 0 0 12px #333, 0 0 0 36px rgba(51, 51, 51, 0.2);
+  }
+  100% {
+    outline-color: #017ea8;
+    box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
+  }
+}
+</style>
+<div class="slider">
+  <input type="radio" name="slider" title="slide1" checked class="slider__nav">
+  <input type="radio" name="slider" title="slide2" class="slider__nav">
+  <input type="radio" name="slider" title="slide3" class="slider__nav">
+  <input type="radio" name="slider" title="slide4" class="slider__nav">
+  <input type="radio" name="slider" title="slide5" class="slider__nav">
+  <input type="radio" name="slider" title="slide6" class="slider__nav">
+        
+  <div class="slider__inner" style="width:600%">
+    <div class="slider__contents">
+		<div class="testimonial2">
+        <blockquote>
+        I could not have picked a better producer to work with than Robin Applewood. Truly believing in the power of music, he is driven and inspired, which is contagious to everyone involved in the project. His wealth of experience, superb musicianship, and his clarity of vision for the full scope of the project kept everything flowing and fully energized for the duration. As a producer he really took the time to connect with me and understand my intention for the music, which you can really hear in the finished product. Robin has the natural ability to really hear the strengths in a song, and he successfully accentuates those strengths through his playing, his management, and his mixing skills. I believe we have really captured a beautiful moment in time.
+        </blockquote>
+        <div></div>
+        <p class="test-author">
+        Kenny Crowley — Singer/Songwriter
+        </p>
+    </div>
+   </div>
+   <div class="slider__contents">
+	 <div class="testimonial2">
+        <blockquote>
+        Robin Applewood is a triple threat–producer, engineer, and guitarist--and he's amazingly good at all three.  Working with Robin to bring the vision for my album to life was an awesome experience.  Being able to trust him with "my baby" relieved so much stress, and he helped me to find the humanity and fun in the creative process. Robin has developed many good connections with local musicians.  He attracted great talent and positive energy to the project. The result far exceeded my expectations.</blockquote>
+        <div></div>
+        <p class="test-author">
+          Jacqueline K — Singer/Songwriter
+        </p>
+     </div>
+   </div>
+   <div class="slider__contents">
+	 <div class="testimonial2">
+        <blockquote>
+        A lot of great reviews here but few if any from another audio engineer. As a mastering engineer who hears many different productions I can honestly say that Robin has great ears and production skills. His mixes are consistently high quality which makes my job that much easier. I appreciate how he brings out the feeling in the music via his production. 5 stars!
+        </blockquote>
+        <div></div>
+        <p class="test-author">
+          Justin Weiss — Trakworx Mastering
+        </p>
+     </div>
+   </div>
+   <div class="slider__contents">
+	 <div class="testimonial2">
+        <blockquote>
+        Robin is one of the most talented, thoughtful, positive, hard-working, and organized producers I have ever worked with. He went above and beyond the call of duty to make the track I did with him shine, shimmer, and sing! I'm truly happy with the final product, and I know that it is making a difference in the world. If you are looking to produce exceptionally quality music for a fair price, Robin Applewood is your man. Robin can also be a one-stop shop for music video production. I'm proud of the work we did together. Thanks Robin!
+        </blockquote>
+        <div></div>
+        <p class="test-author">
+          Chris Bryden — Singer/Songwriter
+        </p>
+     </div>
+   </div>
+   <div class="slider__contents">
+	 <div class="testimonial2">
+        <blockquote>
+        It's hard to decide where to begin when it comes to Robin's skills. Robin recorded, produced and mixed my debut album and it turned out better than I could have ever imagined. The process of creating this album was smooth, efficient, and full of wonderful creative spark. On top of that, he's always running sound for events I'm at (including my own performances) and it blows my mind how good everything sounds, always, no matter the room or the performer. He's got every aspect of this thing called "sound" dialed in — if you describe a tone that you're going for in even the most ethereal and abstract terms (let's say "vibey washed out dream guitar"), he'll find a way of achieving that sound. I wish I could give Robin 6 stars. His musicianship, knowledge, positive attitude, and general aptitude are all through the roof. Trust me when I say Robin is your guy.
+        </blockquote>
+        <div></div>
+        <p class="test-author">
+        Tom Quell — Singer/Songwriter
+        </p>
+     </div>
+   </div>
+   <div class="slider__contents">
+	 <div class="testimonial2">
+        <blockquote>
+         I had the extreme joy of working with Robin Applewood on my band's current album "Surfeando un Cometa" and our last album "Coco Avenges" He was such a pro both times. While he was producing my album there was never an inch of stress or pressure to hurry and get things done. He kept the whole project very focused and as a result we have an amazing couple of albums.
+        </blockquote>
+        <div></div>
+        <p class="test-author">
+        Adley Penner — Bicicletas por la Paz
+        </p>
+     </div>
+   </div>
+      
+      
+  </div>
+</div>
+
                   </section>
               </div>
               <!-- When a rate isn't specified, it will be calculated such that the image always fills the space between the
