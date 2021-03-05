@@ -341,4 +341,8 @@ html {
     #hamburger-menu {
         display: block;
     }
+    
+    .mobile-hidden {
+        display: none;
+    }
 }
