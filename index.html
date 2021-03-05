@@ -68,6 +68,7 @@
     }
     .parallax.header {
       margin-bottom: -90vh;
+     background-image: url('IMG/lavender2.jpg');
     }
 
     p {
@@ -109,6 +110,10 @@
               
     @media screen and (max-width: 991.98px) {
         
+        .parallax header {
+            background-image: url('IMG/lavender-portrait.jpg');
+        }
+        
         .scene .hero {
             margin: 110px 0 5vw 0;
         }
@@ -132,7 +137,7 @@
           <div class="viewport">
             <div>
               <!-- Specifying a parallax rate of 0.3 will slide the image at that proportion of the scroll speed. -->
-              <div class="parallax header" style="background-image: url('IMG/lavender2.jpg');" parallax="0.3"></div>
+              <div class="parallax header" parallax="0.3"></div>
               <div class="scene header">
                 <div class="hero">
                     <img class="mobile-hidden" src="IMG/eva-orbuch-6.jpg" />
