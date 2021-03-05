@@ -34,7 +34,7 @@ html {
 
     h1, h2, h3, h4, h5, h6 {
         text-align: center;
-        font-family: 'Newsreader', sans-serif;
+        font-family: 'Newsreader', serif;
     }
 
 	h2,h3,h4,h5,h6, h2 a, h3 a, h4 a, h5 a, h6 a{
@@ -44,7 +44,7 @@ html {
     h2 {padding: 40px 0 20px 0;}
 
     p {
-        font-family: 'Newsreader', sans-serif;
+        font-family: 'Newsreader', serif;
     }
 
     a, a:hover {
@@ -115,7 +115,7 @@ html {
 		font-size: 20px;
 		color: white;
         text-decoration: none;
-        font-family: 'Newsreader', sans-serif;
+        font-family: 'Newsreader', serif;
 	}
     .nav-link:hover {
         color: white;
@@ -151,7 +151,7 @@ html {
 		color: white !important;
         text-decoration: none;
         line-height: 0.95;
-        font-family: 'Newsreader', sans-serif;
+        font-family: 'Newsreader', serif;
 	}
 
     .nav-down {
