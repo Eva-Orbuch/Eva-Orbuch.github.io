@@ -12,15 +12,6 @@ html {
         margin-top:100px;
         background: white;
     }
-
-    html, body {
-      height: 100%;
-      margin: 0;
-      overflow: hidden;
-    }
-    * {
-      box-sizing: border-box;
-    }
     .scene {
       height: 150vh;
       padding: 5vh 10vw;
