@@ -637,6 +637,15 @@ body {
               @media screen and (max-width: 768px) {
                   
                   body {margin-top:67px}
+                  
+                  .container {
+                      display: block;
+                      padding: 0 15px;
+                  }
+                  
+                  .section-title {
+                      width: 95%;
+                  }
                   .testimonial2 blockquote { 
                       font-size: 1rem;
                       line-height: 1.5;
