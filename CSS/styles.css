@@ -224,6 +224,7 @@ body {
   -webkit-flex-flow: row nowrap;
       -ms-flex-flow: row nowrap;
           flex-flow: row nowrap;
+    padding-bottom: 100px;
 }
 .slider__contents {
   height: 100%;
