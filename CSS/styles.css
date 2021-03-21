@@ -580,6 +580,7 @@ body {
           color: white;
           text-align: center;
           padding: 20px;
+          z-index: 999;
       }
 
     footer p a, footer p a:hover {
