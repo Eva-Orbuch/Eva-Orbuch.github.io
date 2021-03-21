@@ -21,15 +21,6 @@
       
       <style>
           
-          html, body {
-              height: 100%;
-              margin: 0;
-              overflow: hidden;
-            }
-            * {
-              box-sizing: border-box;
-            }
-          
           body {
               margin-top:0;
           }
@@ -39,31 +30,11 @@
                  background-image: url('IMG/lavender2.jpg');
                 }
           
-          .painting {
-              background-image: url('IMG/eva-orbuch-painting.png');
-              background-position: bottom;
-          }
-          
-          .choir {background-image: url('IMG/thrive-choir.jpg');}
-          
           @media screen and (max-width: 991.98px) {
 
             .parallax.header {
                 background-image: url('IMG/lavender-portrait.jpg');
             }
-          }
-          
-          @media screen and (max-width: 768px) {
-              
-              .choir {
-                background-size: 100%;
-                background-repeat: no-repeat;
-
-              }
-              
-              .scene {
-                  height: 100vh;
-              }
           }
       </style>
 
@@ -85,9 +56,8 @@
               <div class="scene solid" style="height: 90vh">
                     <section class="container">
                         <div class="slider">
-                            
-                        <input type="radio" name="slider" title="slide1" checked class="slider__nav">
-                        <input type="radio" name="slider" title="slide2" class="slider__nav">
+                          <input type="radio" name="slider" title="slide1" checked class="slider__nav">
+                          <input type="radio" name="slider" title="slide2" class="slider__nav">
 
                           <div class="slider__inner" style="width:200%">
                             <div class="slider__contents">
@@ -113,16 +83,13 @@
                            </div>
 
                           </div>
-                            
-                        
-                            
                         </div>
 
                   </section>
               </div>
               <!-- When a rate isn't specified, it will be calculated such that the image always fills the space between the
                    element before it and the next element with the "parallax-cover" attribute. -->
-              <div class="parallax" class="painting" parallax></div>
+              <div class="parallax" id="painting parallax></div>
               <div class="scene">
                 <h1>Gazing into the sea</h1>
               </div>
@@ -136,8 +103,10 @@
               </div>
               <!-- When a rate isn't specified and there is no subsequent element with the "parallax-cover" attribute the rate
                    will be calculated such that the image slides until the end of the scrollable content. -->
-              <div class="parallax" class="choir" parallax></div>
+              <div class="parallax" style="background-image: url('IMG/thrive-choir.jpg');" parallax></div>
+              <div class="scene sunset container">
 
+              </div>
                 <div parallax-cover> 
                     <!-- LOAD FOOTER -->
                     <footer></footer>
