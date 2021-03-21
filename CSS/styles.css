@@ -641,7 +641,7 @@ body {
                       font-size: 1rem;
                       line-height: 1.5;
                         overflow: scroll;
-                        height: 400px;
+                        max-height: 500px;
                       padding: 20px;
                   }
                   
