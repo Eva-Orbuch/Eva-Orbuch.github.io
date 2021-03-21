@@ -380,7 +380,8 @@ html {
                       display: block;
                   }
                   
-                  .section-title, section img {width: 95%;}
+                  .section-title, section img {width: 100%;}
+                  
                   .testimonial2 blockquote { 
                       font-size: 1rem;
                       line-height: 1.5;
