@@ -5,10 +5,12 @@
 html {
         scroll-behavior: smooth;
         z-index: 9;
+        background: #55A08D;
     }
 
     body {
         margin-top:100px;
+        background: white;
     }
 
     section img {

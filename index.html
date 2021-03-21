@@ -107,29 +107,11 @@
     background-color: white;
         box-shadow: 10px 10px 20px white;
     }
-              
-    @media screen and (max-width: 991.98px) {
-        
-        .parallax.header {
-            background-image: url('IMG/lavender-portrait.jpg');
-        }
-        
-        .scene .hero {
-            margin: 110px 0 5vw 0;
-        }
-        .scene.header {
-                padding: 5vw 30px;
-        }
-        
-        .hero h2 {
-            font-size: 24px;
-        }
-    }
 
 
 .testimonial2 blockquote {
   margin: 10px 10px 0;
-  background: #55a08dc4;
+  background: #7cb6a7;
   padding: 40px 20px;
   position: relative;
   border: none;
@@ -169,6 +151,7 @@ font-family: 'Newreader', serif;
   left: 30px;
     top: -25px;
     position: relative;
+    z-index: -1;
 }
 
 .testimonial2 p {
@@ -304,12 +287,41 @@ body {
   }
 }
               
+                  @media screen and (max-width: 991.98px) {
+        
+        .parallax.header {
+            background-image: url('IMG/lavender-portrait.jpg');
+        }
+        
+        .scene .hero {
+            margin: 110px 0 5vw 0;
+        }
+        .scene.header {
+                padding: 5vw 30px;
+        }
+        
+        .hero h2 {
+            font-size: 24px;
+        }
+    }
+              
               @media screen and (max-width: 768px) {
                   .testimonial2 blockquote { 
                       font-size: 1rem;
                       line-height: 1.5;
+                        overflow: scroll;
+                        height: 400px;
                   }
+                  
+                  .scene {
+                      padding: revert;
+                  }
+                  
+                  .testimonial2 blockquote:before,
+                  .testimonial2 blockquote:after {display: none;}
               }
+              
+              
 </style>
 
   </head>
