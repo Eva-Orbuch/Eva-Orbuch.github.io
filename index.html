@@ -39,7 +39,10 @@
                  background-image: url('IMG/lavender2.jpg');
                 }
           
-          #painting {background-image: url('IMG/eva-orbuch-painting.png');}
+          #painting {
+              background-image: url('IMG/eva-orbuch-painting.png');
+              background-position: bottom;
+          }
           
           #choir {background-image: url('IMG/thrive-choir.jpg');}
           
@@ -48,6 +51,15 @@
             .parallax.header {
                 background-image: url('IMG/lavender-portrait.jpg');
             }
+          }
+          
+          @media screen and (max-width: 768px) {
+              
+              #choir {
+              background-size: 100%;
+                background-repeat-y: no-repeat;
+                height: 70vh;
+              }
           }
       </style>
 
