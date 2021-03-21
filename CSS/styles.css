@@ -628,10 +628,6 @@ body {
     .mobile-hidden {
         display: none;
     }
-        
-    .parallax.header {
-        background-image: url('IMG/lavender-portrait.jpg');
-    }
 
     .scene .hero {
         margin: 110px 0 5vw 0;
