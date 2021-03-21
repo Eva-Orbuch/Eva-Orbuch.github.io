@@ -15,7 +15,6 @@ html {
     .scene {
       height: 150vh;
       padding: 5vh 10vw;
-        z-index: 0;
     }
               
     .scene .hero {
@@ -53,7 +52,6 @@ html {
     }
     .parallax.header {
       margin-bottom: -90vh;
-        z-index: -99;
     }
 
     p {
@@ -568,7 +566,7 @@ body {
       top: 0;
       right: 18px;
       font-size: 60px;
-      z-index: 1;ø
+      z-index: 1;
     }
 
     .closebtn:hover {
@@ -582,7 +580,6 @@ body {
           color: white;
           text-align: center;
           padding: 20px;
-          z-index: 999;
       }
 
     footer p a, footer p a:hover {
