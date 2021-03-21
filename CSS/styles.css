@@ -15,6 +15,7 @@ html {
     .scene {
       height: 150vh;
       padding: 5vh 10vw;
+        z-index: 0;
     }
               
     .scene .hero {
@@ -52,6 +53,7 @@ html {
     }
     .parallax.header {
       margin-bottom: -90vh;
+        z-index: -99;
     }
 
     p {
