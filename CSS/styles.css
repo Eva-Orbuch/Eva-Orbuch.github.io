@@ -255,7 +255,7 @@ html {
           }
 
     h1, h2, h3, h4, h5, h6 , p, a, li {
-        font-family: 'Newsreader', serif;
+        font-family: 'Newreader', serif;
     }
 
     h1 {
@@ -272,7 +272,7 @@ html {
 
 	h2,h3,h4,h5,h6, h2 a, h3 a, h4 a, h5 a, h6 a{
         color: #55A08D;
-        font-family: 'Newsreader', serif;
+        font-family: 'Newreader', serif;
 	}
 
     h2 {padding: 40px 0 20px 0;}
