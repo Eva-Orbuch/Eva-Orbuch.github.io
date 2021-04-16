@@ -254,6 +254,10 @@ html {
     margin: 20px 30px 50px 0;
           }
 
+    h1, h2, h3, h4, h5, h6, p, a, li, a, {
+        font-family: 'Newsreader', serif;
+    }
+
     h1 {
         margin: 10px 0 20px 0;
         background: #572F7C;
@@ -264,7 +268,6 @@ html {
 
     h1, h2, h3, h4, h5, h6 {
         text-align: center;
-        font-family: 'Newsreader', serif;
     }
 
 	h2,h3,h4,h5,h6, h2 a, h3 a, h4 a, h5 a, h6 a{
@@ -274,13 +277,8 @@ html {
 
     h2 {padding: 40px 0 20px 0;}
 
-    p {
-        font-family: 'Newsreader', serif;
-    }
-
     a, a:hover {
         color:#935195;
-        font-family: 'Newsreader', serif;
     }
 
     .container {
