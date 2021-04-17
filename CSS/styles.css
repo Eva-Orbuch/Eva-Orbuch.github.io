@@ -281,6 +281,10 @@ html {
         color:#935195;
     }
 
+    a:hover {
+        text-decoration: underline;
+    }
+
     .container {
         display: grid;
     }
