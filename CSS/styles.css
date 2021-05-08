@@ -161,16 +161,6 @@ body {
           justify-content: center;
 }
 
-.hero h2 {
-   color: #7370c7;
-   text-align: center;
-   padding: 30px;
-   margin: auto;
-   padding-bottom: 200px;
-   font-weight: 700;
-   line-height: 2;
-}
-
 @-webkit-keyframes check {
   50% {
     outline-color: #333;
