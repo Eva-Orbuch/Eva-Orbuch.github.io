@@ -28,11 +28,6 @@
       
 <style>
             
-    html, body {
-      height: 100%;
-      margin: 0;
-      overflow: hidden;
-    }
     * {
       box-sizing: border-box;
     }
@@ -64,47 +59,141 @@
   .testimonial2 blockquote {
       margin-top:350px;
     }
-</style>
 
-  </head>
-  <body>
-      <!--LOAD NAV-->
-      <nav></nav>
-      
-          <div class="viewport">
+    .navbar-nav {
+        display: contents;
+    }
+    
+    #yt-widget .yt-button {
+        background: none !important; /* Overridng MC defaults*/
+    }
+    
+    #yt-widget, #yt-widget * {
+        margin-bottom: 5px !important; /* Overridng MC defaults*/
+        font-family: 'Newreader', serif !important;
+        font-size: 15px !important;
+    }
+    
+</style>
+    </head>
+      <body>
+
+<div id="hamburger-menu" onclick="toggleNav()"><span></span><span></span><span></span>
+    </div>
+
+    <div id="nav-wrapper">
+
+    <nav class="navbar navbar-expand-lg">
+
+          <a class="navbar-brand" href="index.html" title="Return to Eva Orbuch Homepage"><img id="logo" src="IMG/favicon.png"/><strong>Eva Orbuch</strong> <!--<br/><span class="logo-subhead">Coaching</span>--></a>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul id="menu-main-nav" class="navbar-nav nav-fill">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="offerings.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Go to offerings section">
+                      Offerings
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="coaching.html" title="Go to Coaching">Coaching</a>
+                      <a class="dropdown-item" href="ritual-creation.html" title="Go to Ritual Creation">Ritual Creation</a>
+                      <a class="dropdown-item" href="political-consulting.html" title="Go to Political Consulting">Political Consulting</a>
+                        <a class="dropdown-item" href="spanish-interpretation.html" title="Go to Spanish to English Translation">Spanish-English Interpretation</a>
+                        <a class="dropdown-item" href="musical-offerings.html" title="Go to Musical Offerings">Musical Offerings</a>
+                    </div>
+                  </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html" title="Go to About Me">About</a>
+                </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="contact-button" href="contact-me.html" title="Contact Me">Contact</a>
+                  </li>
+                    <li class="nav-item">
+                        <div id="ytWidget"></div><script src="https://translate.yandex.net/website-widget/v1/widget.js?widgetId=ytWidget&pageLang=en&widgetTheme=light&autoMode=false" type="text/javascript"></script>
+                  </li>
+            </ul>
+              
+            
+              
+          </div>
+        
+    </nav>
+        
+    </div>
+
+<!--   MOBILE NAV -->
+    <nav>
+        <div id="mobileNav" class="overlay">
+
+<!--             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+ -->
+            <div class="overlay-content">
+            <ul>
+                    <li><a href="about.html" onclick="toggleNav()" title="Go to About Me">About</a></li>
+
+                    <li><a href="coaching.html" onclick="toggleNav()" title="Go to Coaching">Coaching</a></li>
+
+                    <li><a href="ritual-creation.html" onclick="toggleNav()" title="Go to Ritual Creation">Ritual Creation</a></li>
+
+                    <li><a href="political-consulting.html" onclick="toggleNav()" title="Go to Political Consulting">Political Consulting</a></li>
+
+                    <li><a href="spanish-interpretation.html" onclick="toggleNav()" title="Go to Spanish to English Translation">Spanish Interpretation</a></li>
+
+                    <li><a href="musical-offerings.html" onclick="toggleNav()" title="Go to Musical Offerings">Musical Offerings</a></li>
+                
+                    <li><a href="contact-me.html" onclick="toggleNav()" title="Contact Me">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <div id="navBG"></div>
             <div>
-              <!-- Specifying a parallax rate of 0.3 will slide the image at that proportion of the scroll speed. -->
-              <div class="parallax header" style="background-image: url('IMG/lavender-portrait.jpg');" parallax="0.3"></div>
-              <div class="scene header">
                 <div class="hero">
                     <img src="IMG/eva-orbuch-8.jpg" />
                     <h2>Welcome! I’m glad you're here.<br/> Please take a look at my offerings and reach out. I would be honored to work together.</h2>
                 </div>
               </div>
-              <div class="scene solid" style="height: 90vh">
-                    <section class="container">
-                        
-                    
-                  </section>
-              </div>
 
-              <div class="parallax" style="background-image: url('IMG/eva-orbuch-painting.png');background-position: bottom;" parallax></div>
-              <div class="scene">
                   <div class="testimonial2">
                         <blockquote>Eva is a great collaborator and team player. She always came prepared and ready for fun and engagement when we played music and facilitated the Work that Reconnects together. Eva brings creative ideas yet is also flexible to the ideas of others, making her a great person to work with.  Eva also has great people skills, engaging groups of people with kindness and curiosity. Together we were able to create welcoming and warm spaces.<br/>-Jen Myzel, Musician and Facilitator</blockquote>
 
                      </div>
-              </div>
-                    <!-- LOAD FOOTER -->
-                    <footer></footer>
-                
-            </div>
-          </div>
-          
-    
-    <script src="JS/global.js"></script>
 
+                    <!-- LOAD FOOTER -->
+                    <div class="footer">
     
+                    <div id="mc_embed_signup">
+                    <form action="https://gmail.us1.list-manage.com/subscribe/post?u=f10b59cc40e253806805934a8&amp;id=883440e128" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <div id="mc_embed_signup_scroll">
+                        <label for="mce-EMAIL">Subscribe</label>
+                        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_f10b59cc40e253806805934a8_883440e128" tabindex="-1" value=""></div>
+                        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                        </div>
+                    </form>
+                    </div>
+
+                    <!--End mc_embed_signup-->
+
+                    <!--
+                        <p>
+                            <a href=""><img class="social-icon" src="../IMG/facebook.svg" /></a>
+                            <a href=""><img class="social-icon" src="../IMG/instagram.svg" /></a>
+                            <a href=""><img class="social-icon" src="../IMG/gmail.svg" /></a>
+                        </p>
+
+                    -->
+                        <p>Made with ❤&nbsp;by <a href="https://nuanced.design" target="_blank">Nuanced Design</a></p>
+
+                       <p>&copy; <span id="current-year"></span></p>
+
+                    </div>
+          
+          <script src="JS/global.js"></script>
+          
+<script>
+        document.getElementById("current-year").innerHTML = (new Date().getFullYear());
+</script>
     
   </body>
 </html>
